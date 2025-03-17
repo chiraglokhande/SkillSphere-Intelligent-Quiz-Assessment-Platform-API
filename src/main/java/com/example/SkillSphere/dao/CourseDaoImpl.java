@@ -1,0 +1,11 @@
+package com.example.SkillSphere.dao;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+import com.example.SkillSphere.entity.Course;
+
+@Repository
+public interface CourseDaoImpl extends JpaRepository<Course, Integer> {
+
+}
